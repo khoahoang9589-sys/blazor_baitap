@@ -7,53 +7,27 @@
     <div class="resume-section-content">
         <h2 class="mb-5">Education</h2>
 
-        @foreach (var edu in EducationList)
-        {
-            <div class="d-flex justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h3 class="mb-0">@edu.School</h3>
-                    <div class="subheading mb-3">@edu.Degree</div>
-                    @if (!string.IsNullOrEmpty(edu.Major))
-                    {
-                        <div>@edu.Major</div>
-                    }
-                    <p>GPA: @edu.Gpa</p>
-                </div>
-                <div class="flex-shrink-0">
-                    <span class="text-primary fw-bold">@edu.Period</span>
-                </div>
+        <div class="d-flex justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">University of Colorado Boulder</h3>
+                <div class="subheading mb-3">Bachelor of Science</div>
+                <div>Computer Science - Web Development Track</div>
+                <p>GPA: 3.23</p>
             </div>
-        }
+            <div class="flex-shrink-0">
+                <span class="text-primary fw-bold">August 2006 - May 2010</span>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">James Buchanan High School</h3>
+                <div class="subheading mb-3">Technology Magnet Program</div>
+                <p>GPA: 3.56</p>
+            </div>
+            <div class="flex-shrink-0">
+                <span class="text-primary fw-bold">August 2002 - May 2006</span>
+            </div>
+        </div>
     </div>
 </section>
-
-@code {
-    public class EducationModel
-    {
-        public string School { get; set; } = "";
-        public string Degree { get; set; } = "";
-        public string Major { get; set; } = "";
-        public string Gpa { get; set; } = "";
-        public string Period { get; set; } = "";
-    }
-
-    private List<EducationModel> EducationList = new()
-    {
-        new EducationModel
-        {
-            School = "University of Colorado Boulder",
-            Degree = "Bachelor of Science",
-            Major = "Computer Science - Web Development Track",
-            Gpa = "3.23",
-            Period = "August 2006 - May 2010"
-        },
-        new EducationModel
-        {
-            School = "James Buchanan High School",
-            Degree = "Technology Magnet Program",
-            Major = "",
-            Gpa = "3.56",
-            Period = "August 2002 - May 2006"
-        }
-    };
-}

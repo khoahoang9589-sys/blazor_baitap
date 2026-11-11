@@ -68,3 +68,4 @@ D:\_cybersoft\blazor_baitap\obj\Debug\net10.0\baitap.pdb
 D:\_cybersoft\blazor_baitap\obj\Debug\net10.0\baitap.genruntimeconfig.cache
 D:\_cybersoft\blazor_baitap\obj\Debug\net10.0\ref\baitap.dll
 D:\_cybersoft\blazor_baitap\obj\Debug\net10.0\compressed\ph8rb1ccr2-{0}-gpzn4qubo4-gpzn4qubo4.gz
+D:\_cybersoft\blazor_baitap\obj\Debug\net10.0\baitap.sourcelink.json

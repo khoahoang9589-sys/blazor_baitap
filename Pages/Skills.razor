@@ -25,23 +25,22 @@
 
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
-            @foreach (var workflow in WorkflowList)
-            {
-                <li>
-                    <span class="fa-li"><i class="fas fa-check text-primary"></i></span>
-                    @workflow
-                </li>
-            }
+            <li>
+                <span class="fa-li"><i class="fas fa-check text-primary"></i></span>
+                Mobile-First, Responsive Design
+            </li>
+            <li>
+                <span class="fa-li"><i class="fas fa-check text-primary"></i></span>
+                Cross Browser Testing & Debugging
+            </li>
+            <li>
+                <span class="fa-li"><i class="fas fa-check text-primary"></i></span>
+                Cross Functional Teams
+            </li>
+            <li>
+                <span class="fa-li"><i class="fas fa-check text-primary"></i></span>
+                Agile Development & Scrum
+            </li>
         </ul>
     </div>
 </section>
-
-@code {
-    private List<string> WorkflowList = new()
-    {
-        "Mobile-First, Responsive Design",
-        "Cross Browser Testing & Debugging",
-        "Cross Functional Teams",
-        "Agile Development & Scrum"
-    };
-}
