@@ -1,0 +1,21 @@
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="typeof(CVLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <PageTitle>Trang không tồn tại</PageTitle>
+        <LayoutView Layout="@typeof(CVLayout)">
+            <section class="resume-section">
+                <div class="resume-section-content text-center">
+                    <h1 class="text-primary mb-3">404</h1>
+                    <h2 class="mb-4">Không tìm thấy trang</h2>
+                    <p class="lead mb-4">Đường dẫn bạn yêu cầu không tồn tại.</p>
+                    <a class="btn btn-primary px-4 py-2" href="/about">
+                        <i class="fas fa-home me-2"></i> Quay về trang giới thiệu (About)
+                    </a>
+                </div>
+            </section>
+        </LayoutView>
+    </NotFound>
+</Router>

@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = baitap
+build_property.RootNamespace = baitap
+build_property.ProjectDir = D:\_cybersoft\blazor_baitap\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\_cybersoft\blazor_baitap
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/_cybersoft/blazor_baitap/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/Components/Sidebar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaWRlYmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/Pages/Awards.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXdhcmRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/Pages/Education.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/Pages/Experience.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhwZXJpZW5jZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/Pages/Interests.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW50ZXJlc3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/Pages/Skills.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2tpbGxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/Shared/CVLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENWTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_cybersoft/blazor_baitap/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
